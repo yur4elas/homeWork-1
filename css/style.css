@@ -1,9 +1,19 @@
-/* стили для первой страницы*/
+h1{
+    text-align: center;
+}
 
 /*слово HTML*/
 .text1{
     color: blue;
 }
+
+/*ссылка на первой странице*/
+.ht1{
+    color: rgb(34, 16, 112);
+    text-decoration: none;
+    
+}
+
 
 /*первый параграф*/
 .par1{
@@ -16,11 +26,12 @@
     font-family: 'Times New Roman';
     font-size: medium;
     color: darkgoldenrod;
+    
 }
 /*третий параграф*/
 .par3{
-    font-family: 'Times New Roman';
-    font-size: medium;
+    font-family: cursive;
+    font-size: large;
     color: rgb(42, 168, 162);
 }
 /*выделенные слова*/
@@ -36,15 +47,9 @@ span{
     list-style-type: '§  ' ;
 }
 /*третий список*/
-.list{
+/* .list{
     list-style: symbols(&sect;);
-} 
-
-/*ссылка на первой странице*/
-.ht1{
-    color: darkred;
-    text-decoration: none;
-}
+}  */
 
 img{
     width: 200px;
