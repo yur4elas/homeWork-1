@@ -32,13 +32,13 @@ span{
     list-style-type: disc;
 }
 /*второй список*/
-/* .list2{
-    list-style-type: symbols();
-} */
+.list2{
+    list-style-type: '§  ' ;
+}
 /*третий список*/
-/* .list{
+.list{
     list-style: symbols(&sect;);
-}  */
+} 
 
 /*ссылка на первой странице*/
 .ht1{
