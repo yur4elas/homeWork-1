@@ -1,0 +1,62 @@
+/* стили для первой страницы*/
+
+/*слово HTML*/
+.text1{
+    color: blue;
+}
+
+/*первый параграф*/
+.par1{
+    font-family: Arial;
+    font-size: small;
+    color: coral;
+}
+/*второй параграф*/
+.par2{
+    font-family: 'Times New Roman';
+    font-size: medium;
+    color: darkgoldenrod;
+}
+/*третий параграф*/
+.par3{
+    font-family: 'Times New Roman';
+    font-size: medium;
+    color: rgb(42, 168, 162);
+}
+/*выделенные слова*/
+span{
+    color: rgba(59, 4, 4, .5);
+}
+/*первый список*/
+.list1{
+    list-style-type: disc;
+}
+/*второй список*/
+.list2{
+    list-style-type: symbols();
+}
+/*третий список*/
+/* .list{
+    list-style: symbols(&sect;);
+} */
+
+/*ссылка на первой странице*/
+.ht1{
+    color: darkred;
+    text-decoration: none;
+}
+
+img{
+    width: 200px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.title_img{
+    font-family: 'Courier New';
+}
+
+.fio{
+    text-transform: uppercase;
+    font-family: cursive;
+}
