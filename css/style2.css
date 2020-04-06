@@ -1,0 +1,13 @@
+/*второй параграф*/
+#P1{
+    font-family: 'Times New Roman';
+    font-size: medium;
+    color: darkgoldenrod;
+    
+}
+/*третий параграф*/
+#P2{
+    font-family: cursive;
+    font-size: large;
+    color: rgb(42, 168, 162);
+}

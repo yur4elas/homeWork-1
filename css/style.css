@@ -16,24 +16,12 @@ h1{
 
 
 /*первый параграф*/
-.par1{
+.ordinary{
     font-family: Arial;
     font-size: small;
     color: coral;
 }
-/*второй параграф*/
-#P1{
-    font-family: 'Times New Roman';
-    font-size: medium;
-    color: darkgoldenrod;
-    
-}
-/*третий параграф*/
-#P2{
-    font-family: cursive;
-    font-size: large;
-    color: rgb(42, 168, 162);
-}
+
 /*выделенные слова*/
 span{
     color: rgba(59, 4, 4, .5);
