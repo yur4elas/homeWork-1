@@ -22,14 +22,14 @@ h1{
     color: coral;
 }
 /*второй параграф*/
-.par2{
+#P1{
     font-family: 'Times New Roman';
     font-size: medium;
     color: darkgoldenrod;
     
 }
 /*третий параграф*/
-.par3{
+#P2{
     font-family: cursive;
     font-size: large;
     color: rgb(42, 168, 162);
@@ -41,15 +41,20 @@ span{
 /*первый список*/
 .list1{
     list-style-type: disc;
+
+
 }
 /*второй список*/
 .list2{
-    list-style-type: '§  ' ;
+    list-style-type: none;
+}
+.list2 :before{
+    content: "§ ";
 }
 /*третий список*/
-/* .list{
-    list-style: symbols(&sect;);
-}  */
+.list3{
+    list-style-type: circle;
+}
 
 img{
     width: 200px;
